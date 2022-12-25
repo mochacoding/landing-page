@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: Roboto, sans-serif;
+	padding: auto;
+	margin: auto;
+}
+
+button {
+	background-color: #3882f6;
+	color: #f9faf8;
+}
+
+.header-content {
+	max-width: 950px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #1f2937;
+	padding-top: 10px;
+}
+
+.header div {
+	/* margin-left: 150px; */
+	color: #f9faf8;
+	font-size: 24px;
+}
+
+ul {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	gap: 30px;
+	/* margin-right: 150px; */
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	background-color: #1f2937;
+	padding: 80px 0px 80px 0px;
+}
+
+.awesome {
+	max-width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.content h3 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+	padding: 0px;
+	margin: 0;
+	line-height: 48px;
+	/* flex-shrink: 0; */
+}
+
+.content p {
+	font-size: 18px;
+	color: #e5e7eb;
+	padding: 0px;
+}
+
+.top-content {
+	flex-basis: 500px;
+	/* flex-shrink: 0; */
+}
+
+.placeholder {
+	width: 400px;
+	height: 200px;
+}
+
+.random {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+
+.random .random-title {
+	font-size: 36px;
+	font-weight: 900;
+	font-style: bolder;
+	color: #1f2937;
+	/* text-align: center; */
+	padding: 30px 0px 30px 0px;
+}
+
+.options {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	/* flex-wrap: wrap; */
+	padding-bottom: 60px;
+}
+
+.options div {
+	flex-basis: 150px;
+	text-align: center;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #e5e7eb;
+}
+
+.quote #quote {
+	font-size: 36px;
+	min-width: 0px;
+	font-weight: light;
+	font-style: italic;
+	padding-bottom: 0px;
+	color: #1f2937;
+	max-width: 900px;
+	/* word-wrap: break-word; */
+	height: auto;
+	/* border: 0px; */
+	margin-bottom: 0px;
+	/* text-align: center; */
+}
+
+.quote #reference {
+	display: flex;
+	margin-top: 0px;
+	padding-top: 0px;
+	align-self: flex-end;
+	width: 500px;
+	height: auto;
+	font-weight: 900;
+	font-style: bolder;
+}
+
+.sign-up {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.sign-up-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: #1f2937;
+	color: #f9faf8;
+	font-size: 12px;
+	padding: 48px;
+	margin-top: auto;
+}
+
+/* QUESTIONS FOR AFTER COMPLETED */
+
+/* 1 - Is there a more flex-boxy way of doing the header margins? instead of margin left and margin right? */
+/* Was there a better or cleaner way to handle my margin left issue than nesting my text in a div? */
